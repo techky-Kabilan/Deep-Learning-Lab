@@ -24,7 +24,7 @@ Experiments 01-09 converted from the supplied Jupyter notebooks into PDFs for mo
 - The accompanying README uploads contain only a newline, so they provide no additional experiment instructions.
 - Experiments 05 and 06 retain the source's simulated/demo labels. Experiment 08 retains its saved CelebA download failure, fallback and generated-image result.
 - Interactive notebook controls are represented by their saved static output, and the Colab link in Experiment 07 is retained.
-- Descriptive subtitles were derived from the notebook code. `conversion-manifest.json` records the source hashes, page counts and saved output/image counts.
+- Descriptive subtitles were derived from the notebook code.
 
 The mini project is outside this conversion's scope.
 
