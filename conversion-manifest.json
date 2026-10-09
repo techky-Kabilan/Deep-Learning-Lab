@@ -1,0 +1,101 @@
+[
+  {
+    "experiment": 1,
+    "file": "DL_Exp_01.pdf",
+    "source": "EXP 1.ipynb",
+    "source_sha256": "5199b44ca57ed2b7943427eab768e7b16e4b42d8b03924f2ce32b9469428c2a8",
+    "pages": 7,
+    "cells": 2,
+    "outputs": 5,
+    "images": 3,
+    "bytes": 140657
+  },
+  {
+    "experiment": 2,
+    "file": "DL_Exp_02.pdf",
+    "source": "EXP 2.ipynb",
+    "source_sha256": "f31dc9590110d2097fcd51e0a7e9c553b27236e973239ac64629b8284b50f55a",
+    "pages": 9,
+    "cells": 2,
+    "outputs": 6,
+    "images": 2,
+    "bytes": 188820
+  },
+  {
+    "experiment": 3,
+    "file": "DL_Exp_03.pdf",
+    "source": "EXP 3.ipynb",
+    "source_sha256": "19327fbd7011e0832835573091de12b0ca67bfa14eb8f862d519ea8a5813e458",
+    "pages": 9,
+    "cells": 2,
+    "outputs": 6,
+    "images": 2,
+    "bytes": 234064
+  },
+  {
+    "experiment": 4,
+    "file": "DL_Exp_04.pdf",
+    "source": "EXP 4.ipynb",
+    "source_sha256": "5e4928a5c60ece30f0e0691a72348a467dd9e0b0034c0ce65f9fa2cf1ddd24c8",
+    "pages": 7,
+    "cells": 2,
+    "outputs": 5,
+    "images": 4,
+    "bytes": 343653
+  },
+  {
+    "experiment": 5,
+    "file": "DL_Exp_05.pdf",
+    "source": "EXP 5.ipynb",
+    "source_sha256": "a4732e22d69293cc754a7c60f51d7f4a62f22436073bc64af942635cce90152b",
+    "pages": 5,
+    "cells": 1,
+    "outputs": 4,
+    "images": 2,
+    "bytes": 149992
+  },
+  {
+    "experiment": 6,
+    "file": "DL_Exp_06.pdf",
+    "source": "EXP 6.ipynb",
+    "source_sha256": "cb05ae4819074e73cc83efb1893f762db66a262a9e328b3c3b53238c84907168",
+    "pages": 6,
+    "cells": 2,
+    "outputs": 4,
+    "images": 2,
+    "bytes": 178637
+  },
+  {
+    "experiment": 7,
+    "file": "DL_Exp_07.pdf",
+    "source": "DL_Exp07.ipynb",
+    "source_sha256": "a6d52c7c7faa1b4bdbe2389fa845e434926bb59d7632b680440e34aca9d345ac",
+    "pages": 6,
+    "cells": 2,
+    "outputs": 20,
+    "images": 1,
+    "bytes": 971260
+  },
+  {
+    "experiment": 8,
+    "file": "DL_Exp_08.pdf",
+    "source": "DL_Exp08.ipynb",
+    "source_sha256": "41545d3a83b8207bd91dbccc7d4ad1cba84703ca5246eb46632d916a75c95bc1",
+    "pages": 6,
+    "cells": 1,
+    "outputs": 2,
+    "images": 1,
+    "bytes": 547349
+  },
+  {
+    "experiment": 9,
+    "file": "DL_Exp_09.pdf",
+    "source": "DL_Exp09.ipynb",
+    "source_sha256": "f15a6357e42d4c4ac0d1b999a6bb140ad86f22e4cd580feddb45d92e07620268",
+    "pages": 5,
+    "cells": 1,
+    "outputs": 1,
+    "images": 0,
+    "bytes": 68979
+  }
+]
