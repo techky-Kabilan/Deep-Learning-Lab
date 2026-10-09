@@ -51,7 +51,7 @@ This creates overall precision, recall, mAP@0.5, mAP@0.5:0.95, per-class results
 Exact image duplicates are removed before seeded 70/15/15 group splitting. Without a route manifest each distinct image is its own group; adjacent frames can still leak similar scenes. Supply `--group-manifest` with JSON `{relative_image_path: route_or_sequence_id}` for a stronger evaluation. Audit near-duplicates and country distribution manually. Never claim route-independent generalization from the default image split.
 
 ### Repository integration
-This folder is isolated under `mini-projects/roadvision-ai` in [Deep-Learning-Lab](https://github.com/techky-Kabilan/Deep-Learning-Lab). Existing experiments remain intact. Its code license is scoped to this folder. CI runs only when this project or its workflow changes.
+This folder is isolated under `mini-projects/roadvision-ai` in [Deep-Learning-Lab](https://github.com/techky-Kabilan/Deep-Learning-Lab). Existing experiments remain intact. Its code license is scoped to this folder. The test workflow template is kept inside this project at `.github/workflows/roadvision.yml`. GitHub does not execute workflows from nested project folders, so automatic checks are disabled after this relocation. Run `python -m pytest -q` locally. To enable GitHub Actions later, copy the template to the repository root `.github/workflows/roadvision.yml`; its path filters and working directory already target this mini-project.
 
 ### Documentation
 - [College report](output/pdf/RoadVision_AI_Project_Report.pdf)

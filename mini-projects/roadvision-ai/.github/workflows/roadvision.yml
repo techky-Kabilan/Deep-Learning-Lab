@@ -1,3 +1,6 @@
+# Workflow template stored with RoadVision AI.
+# GitHub Actions only executes workflows in the repository root .github/workflows/.
+# Copy this file there to enable automatic project tests.
 name: RoadVision checks
 on:
   push:
