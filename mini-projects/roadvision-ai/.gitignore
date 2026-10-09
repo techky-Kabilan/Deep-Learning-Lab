@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/
+weights/*
+!weights/README.md
+runs/
+*.pt
+*.zip
+.streamlit/secrets.toml
+artifacts/*
+!artifacts/README.md
