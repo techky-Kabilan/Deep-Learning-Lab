@@ -28,3 +28,9 @@ Experiments 01-09 converted from the supplied Jupyter notebooks into PDFs for mo
 
 The mini project is outside this conversion's scope.
 
+## Mini-project
+
+[RoadVision AI](mini-projects/roadvision-ai) â€” image-based road damage detection
+and analytics with Python, YOLOv8n, RDD2022, Colab and Streamlit. Includes a
+training notebook, evaluation tooling, tests and a college project report.
+Training and model metrics are pending; no trained checkpoint is bundled.
