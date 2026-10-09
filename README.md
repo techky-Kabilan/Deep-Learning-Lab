@@ -1,6 +1,6 @@
 # Deep Learning Laboratory
 
-Experiments 01-09 converted from the supplied Jupyter notebooks into PDFs for mobile viewing.
+Experiments 01-09 converted from the supplied Jupyter notebooks, plus a newly authored Experiment 10, in PDFs for mobile viewing.
 
 ## Experiment PDFs
 
@@ -15,6 +15,10 @@ Experiments 01-09 converted from the supplied Jupyter notebooks into PDFs for mo
 | 07 | Image captioning using ViT-GPT2 | [Open PDF](DL_Exp_07.pdf) |
 | 08 | Variational autoencoder for image generation | [Open PDF](DL_Exp_08.pdf) |
 | 09 | Character-level text generation using LSTM | [Open PDF](DL_Exp_09.pdf) |
+
+| 10 | Image generation using a generative adversarial network (GAN) - MNIST | [Open PDF](DL_Exp_10.pdf) |
+
+Experiment 10 was newly authored from the supplied topic because the original EXP10 folder contained only a blank README. It uses MNIST as the demonstration dataset. [Run the notebook](DL_Exp10.ipynb). Training has not been executed; no generated samples or measured results are claimed.
 
 ## Conversion notes
 
