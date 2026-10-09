@@ -19,8 +19,11 @@ md("## Final held-out evaluation\nSave aggregate/per-class metrics, confusion ma
 code("from scripts.evaluate import evaluate\nEVALUATION = evaluate(BEST, PREPARED / 'data.yaml', Path('/content/final-evaluation'), split='test', device='0')\nshutil.copytree(EVALUATION, SAVE / 'evaluation')\nshutil.copy2('/content/roadvision-commit.txt', SAVE / 'commit.txt')\nshutil.copy2('/content/roadvision-environment.txt', SAVE / 'environment.txt')\nprint((EVALUATION / 'metrics.json').read_text())")
 code("from IPython.display import Image, display\nfor name in ('confusion_matrix.png','confusion_matrix_normalized.png','BoxPR_curve.png'):\n    path = EVALUATION / name\n    if path.exists(): display(Image(filename=str(path)))\nprint('Artifacts saved:', SAVE)")
 md("## Bring the model into Streamlit\nDownload best.pt from the run folder to weights/best.pt. Keep weights and data out of Git. Update MODEL_CARD.md and the report only from the saved evaluation evidence. Capture real inference screenshots after installing the checkpoint. The checked-in screenshots use explicitly labelled synthetic fixtures and do not demonstrate model quality.")
+for index, cell in enumerate(cells):
+    cell['id'] = f'roadvision-{index:02d}'
 notebook = {"cells":cells,"metadata":{"colab":{"name":"RoadVision_AI_Training.ipynb"},"kernelspec":{"display_name":"Python 3","language":"python","name":"python3"},"language_info":{"name":"python"}},"nbformat":4,"nbformat_minor":5}
 if __name__ == '__main__':
     target = Path(__file__).resolve().parents[1] / 'notebooks/train_colab.ipynb'
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(notebook, indent=2), encoding='utf-8')
+
